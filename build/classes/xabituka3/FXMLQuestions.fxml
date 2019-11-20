@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="AnchorPane" fx:id="pane" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLQuestionsController">
+   <children>
+      <Button fx:id="but1" layoutX="34.0" layoutY="199.0" mnemonicParsing="false" onMousePressed="#OnPressedbut1" onMouseReleased="#OnReleasedbut1" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: red;" />
+      <Button fx:id="but2" layoutX="340.0" layoutY="199.0" mnemonicParsing="false" onMousePressed="#OnPressedbut2" onMouseReleased="#OnReleasedbut2" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: green;" />
+      <TextArea fx:id="label1" editable="false" layoutX="71.0" layoutY="20.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="154.0" prefWidth="498.0" style="-fx-background-color: white;" wrapText="true">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="566.0" layoutY="454.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+   </children>
+</Pane>

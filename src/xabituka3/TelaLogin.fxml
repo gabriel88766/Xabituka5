@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: rgb(0,162,232);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLTelaLoginController">
+   <children>
+      <TextField fx:id="txtLogin" layoutX="213.0" layoutY="255.0" prefHeight="25.0" prefWidth="215.0" />
+      <PasswordField fx:id="txtSenha" layoutX="213.0" layoutY="312.0" onKeyPressed="#onKeyPressed" prefHeight="25.0" prefWidth="215.0" />
+      <Button fx:id="Login" contentDisplay="CENTER" layoutX="346.0" layoutY="402.0" mnemonicParsing="false" onAction="#actionHandledLogin" prefHeight="25.0" prefWidth="82.0" text="Login" />
+      <Button contentDisplay="CENTER" layoutX="209.0" layoutY="402.0" mnemonicParsing="false" onAction="#actionHandledCadastrar" text="Cadastrar-se" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="223.0" prefHeight="27.0" prefWidth="215.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="213.0" layoutY="280.0" prefHeight="17.0" prefWidth="215.0" text="Senha">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="261.0" layoutY="355.0" onAction="#jajaApago" text="Esqueci minha senha" textFill="#4017e8" />
+      <Label alignment="CENTER" layoutX="157.0" layoutY="87.0" prefHeight="110.0" prefWidth="328.0" text="Xabituca">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

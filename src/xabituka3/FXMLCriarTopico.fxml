@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="AnchorPane" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLCriarTopicoController">
+   <children>
+      <Label layoutX="180.0" layoutY="55.0" prefHeight="72.0" prefWidth="280.0" text="Criar Tópico">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <ComboBox fx:id="cb" layoutX="190.0" layoutY="151.0" onAction="#comboChanged" prefHeight="31.0" prefWidth="239.0" />
+      <TextField fx:id="tx" layoutX="190.0" layoutY="211.0" prefHeight="31.0" prefWidth="239.0" />
+      <Button layoutX="345.0" layoutY="313.0" mnemonicParsing="false" onAction="#onAction" prefHeight="31.0" prefWidth="84.0" text="Criar" />
+      <Button layoutX="190.0" layoutY="313.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="78.0" text="Voltar" />
+      <Label alignment="CENTER" layoutX="102.0" layoutY="151.0" prefHeight="31.0" prefWidth="57.0" text="Matéria:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="216.0" prefHeight="20.0" prefWidth="57.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

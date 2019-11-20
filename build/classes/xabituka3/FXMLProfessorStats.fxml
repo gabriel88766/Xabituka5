@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane id="AnchorPane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLProfessorStatsController">
+   <children>
+      <Label alignment="CENTER" layoutX="176.0" layoutY="30.0" prefHeight="84.0" prefWidth="294.0" text="Estatísticas">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="253.0" layoutY="129.0" prefHeight="25.0" prefWidth="141.0" text="Escolha o Aluno">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="246.0" layoutY="215.0" prefHeight="25.0" prefWidth="155.0" text="Escolha a matéria">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cb1" layoutX="218.0" layoutY="162.0" onAction="#onComboChanged" prefHeight="35.0" prefWidth="210.0" />
+      <ComboBox fx:id="cb2" layoutX="218.0" layoutY="250.0" onAction="#onComboChanged2" prefHeight="35.0" prefWidth="210.0" />
+      <Button layoutX="342.0" layoutY="318.0" mnemonicParsing="false" onAction="#prosseguir" prefHeight="25.0" prefWidth="90.0" text="Confirmar" />
+      <Button layoutX="218.0" layoutY="318.0" mnemonicParsing="false" onAction="#voltar" prefHeight="25.0" prefWidth="90.0" text="Cancelar" />
+   </children>
+</Pane>

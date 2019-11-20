@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="pane1" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLCriarLearningController">
+   <children>
+      <Label alignment="CENTER" layoutX="162.0" layoutY="27.0" prefHeight="105.0" prefWidth="286.0" text="Learning">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="208.0" layoutY="132.0" mnemonicParsing="false" onAction="#criarMateria" prefHeight="40.0" prefWidth="194.0" text="Criar Matéria">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="209.0" layoutY="200.0" mnemonicParsing="false" onAction="#criarTopico" prefHeight="40.0" prefWidth="194.0" text="Criar Tópico">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="209.0" layoutY="269.0" mnemonicParsing="false" onAction="#criarQuestao" prefHeight="40.0" prefWidth="194.0" text="Criar Questão">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="208.0" layoutY="335.0" mnemonicParsing="false" onAction="#actionMenu" prefHeight="40.0" prefWidth="194.0" text="Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

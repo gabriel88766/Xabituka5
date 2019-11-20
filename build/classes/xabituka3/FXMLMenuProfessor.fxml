@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="AnchorPane" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLMenuProfessorController">
+   <children>
+      <Label alignment="CENTER" layoutX="138.0" layoutY="25.0" prefHeight="130.0" prefWidth="364.0" text="Xabituca">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="203.0" layoutY="182.0" mnemonicParsing="false" onAction="#actionLearning" prefHeight="42.0" prefWidth="235.0" text="Criar Learning">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="240.0" mnemonicParsing="false" onAction="#actionStats" prefHeight="42.0" prefWidth="235.0" text="Estatísticas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="291.0" mnemonicParsing="false" onAction="#actionSair" prefHeight="42.0" prefWidth="235.0" text="Sair">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lb" layoutX="14.0" layoutY="6.0" prefHeight="21.0" prefWidth="248.0" textFill="#5aa3fc" />
+   </children>
+</Pane>

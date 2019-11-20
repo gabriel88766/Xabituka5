@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="AnchorPane" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xabituka3.FXMLCriarQuestaoController">
+   <children>
+      <Label alignment="CENTER" layoutX="103.0" layoutY="34.0" prefHeight="77.0" prefWidth="434.0" text="Criar Questão">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="128.0" prefHeight="27.0" prefWidth="85.0" text="Matéria">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="78.0" layoutY="181.0" prefHeight="27.0" prefWidth="70.0" text="Tópico">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="71.0" layoutY="227.0" prefHeight="27.0" prefWidth="85.0" text="Questão">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="365.0" prefHeight="27.0" prefWidth="99.0" text="Dificuldade">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cb1" layoutX="177.0" layoutY="129.0" onAction="#comboChanged1" prefHeight="25.0" prefWidth="202.0" />
+      <ComboBox fx:id="cb2" layoutX="177.0" layoutY="182.0" onAction="#comboChanged2" prefHeight="25.0" prefWidth="202.0" />
+      <ComboBox fx:id="cb3" layoutX="177.0" layoutY="366.0" onAction="#comboChanged3" prefHeight="25.0" prefWidth="18.0" promptText="1" />
+      <ComboBox fx:id="cb4" layoutX="417.0" layoutY="367.0" onAction="#comboChanged" prefHeight="25.0" prefWidth="99.0" promptText="Verdadeiro" visibleRowCount="2" />
+      <Label alignment="CENTER" layoutX="320.0" layoutY="365.0" prefHeight="27.0" prefWidth="85.0" text="Resposta">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="421.0" layoutY="418.0" mnemonicParsing="false" onAction="#criarQuestao" prefHeight="35.0" prefWidth="99.0" text="Enviar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="169.0" layoutY="418.0" mnemonicParsing="false" onAction="#voltar" prefHeight="39.0" prefWidth="92.0" text="Voltar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="txt" layoutX="177.0" layoutY="217.0" prefHeight="133.0" prefWidth="322.0" wrapText="true" />
+   </children>
+</Pane>
